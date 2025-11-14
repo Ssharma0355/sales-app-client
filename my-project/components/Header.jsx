@@ -47,16 +47,23 @@ export default function Header() {
     <header className="bg-white border-b border-gray-100">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8" aria-label="Global">
         {/* Logo */}
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-              alt="Logo"
-              className="h-8 w-auto"
-            />
-          </a>
-        </div>
+        <div className="flex lg:flex-1 items-center gap-2">
+  <a href="#" className="flex items-center -m-1.5 p-1.5 hover:opacity-80 transition">
+    <span className="sr-only">LeadFlow</span>
+    
+    {/* Logo Icon */}
+    <img
+      src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+      alt=""
+      className="h-8 w-8"
+    />
+    
+    {/* Brand Name */}
+    <span className="ml-2 text-xl font-bold text-gray-900">
+      LeadFlow
+    </span>
+  </a>
+</div>
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex lg:gap-x-10">
