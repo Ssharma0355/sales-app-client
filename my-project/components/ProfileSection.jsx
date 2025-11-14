@@ -13,12 +13,12 @@ export default function ProfileSection() {
         <div className="max-w-3xl mx-auto bg-gray-50 rounded-xl p-8">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
             <img
-              src="/api/placeholder/120/120"
+              src="https://www.salon.com/app/uploads/2013/12/wolf_wall_street1.jpg"
               alt="Profile"
-              className="w-24 h-24 rounded-full border-4 border-white shadow"
+              className="w-24 h-24 rounded-full object-cover border-4 border-white shadow"
             />
             <div className="text-center sm:text-left flex-1">
-              <h3 className="text-2xl font-bold text-gray-900">Jordan Lee</h3>
+              <h3 className="text-2xl font-bold text-gray-900">Jordan Belfort</h3>
               <p className="text-gray-600">Sales Manager • Marketing Dept</p>
               <div className="flex justify-center sm:justify-start gap-6 mt-4 text-sm">
                 <div>
