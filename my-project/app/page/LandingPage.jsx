@@ -5,8 +5,7 @@ import HeroSection from "./HeroSection";
 const LandingPage = () => {
   return (
     <div>
-      <Header />
-      <HeroSection />
+     
     </div>
   );
 };
