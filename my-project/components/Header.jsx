@@ -48,19 +48,19 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8" aria-label="Global">
         {/* Logo */}
         <div className="flex lg:flex-1 items-center gap-2">
-  <a href="#" className="flex items-center -m-1.5 p-1.5 hover:opacity-80 transition">
-    <span className="sr-only">LeadFlow</span>
+  <a href="/" className="flex items-center -m-1.5 p-1.5 hover:opacity-80 transition">
+    <span className="sr-only">Rocket Sales</span>
     
     {/* Logo Icon */}
-    <img
+    {/* <img
       src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
       alt=""
       className="h-8 w-8"
-    />
+    /> */}
     
     {/* Brand Name */}
     <span className="ml-2 text-xl font-bold text-gray-900">
-      LeadFlow
+      Rocket Sales
     </span>
   </a>
 </div>
